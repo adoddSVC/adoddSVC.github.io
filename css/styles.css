@@ -153,7 +153,6 @@ main {
 	clear: left;
 	margin-top: -0.3em;
 	border-radius: 0;
-	overflow: auto;
 }
 
 .logo {
@@ -227,6 +226,7 @@ figure a {
 /* Style specifies bottom padding for the section element */
 section {
 	padding-bottom: 3em;
+	
 }
 
 /* Style for h1 element within the section element */
@@ -293,24 +293,52 @@ aside {
 
 @media only screen and (min-width: 830px) {
 	
-	.logo {
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-}
+		.logo {
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-.banner {
-	width: 90%;
-	margin: auto;
-	margin-left: 3.5em;
-	border: 10px solid #C93239;
-}
+	.banner {
+		width: 90%;
+		margin: auto;
+		margin-left: 3.5em;
+		border: 10px solid #C93239;
+	}
 
-.marvel {
-	width: 35%;
-	margin-left: 10em;
-	margin-bottom: 5em;
-}
+	.marvel {
+		width: 35%;
+		margin-left: 10em;
+		margin-bottom: 5em;
+		padding-bottom: 2em;
+	}
+	
+	.capcom {
+		width: 35%;
+		margin-left: 2em;
+		margin-bottom: 5em;
+		padding-bottom: 1em;
+	}
+	.characters {
+		margin-top: 16em;
+	}
+	
+	dt {
+		text-align: left;
+		font-size: 2em;
+		color: #F70408
+	}
+	
+	dd {
+		text-align: left;
+		font-size: 1.5em;
+	}
+	
+	li {
+		font-size: 1.4em;
+		font-style: italic;
+		color: #C1A61b;
+	}
 	
 	/* Style specifies a width for container */
 	#container { 
@@ -319,19 +347,27 @@ aside {
 	
 	/* Style to left align header */
 	header {
-		font-size: 30;
-		text-align: left;
-		color: #991616;
+		font-size: 2em;
+		text-align: center;
+		color: #ED0B47;
 		padding-bottom: 2em;
 	}
+	
+	p {
+		font-size: 1.5em;
+		text-align: center;
+		padding-bottom: 0.5em;
+		padding-top: 0.5em;
+		color: #3C7EE8
+}
 	
 	/* Style for nav specifies a float, margin, and width */
 nav {
 		float: right;
-		margin-top: -7em;
+		margin-top: -5em;
 		margin-right: 2em;
 		padding: 2em;
-		margin-bottom: 0;
+		margin-bottom: 0.2em;
 		width: 70%;
 }
 	
@@ -357,16 +393,16 @@ nav li a {
 
 /* Style rules for psuedo-classes */
 nav li a:link {
-		color: #FFFFFF;
+		color: #D60A3A;
 }
 
 nav li a:visited {
-		color: #CCCCFF;
+		color: #193D9E;
 }
 
 nav li a:hover {
-		color: #9D9D93;
-		font-style: italic;
+		color: #E2DCDD;
+		font-style: italic,;
 }
 
 /* Style specifies border, shadow, margin, and padding for main element */
@@ -384,7 +420,10 @@ main p {
 
 /*Style applies color to h1 element */
 h1 {
-	color: #FFFFFF;
+	color: #5991DB;
+	padding-bottom: .5em;
+	font-size: auto;
+	text-align: left;
 }
 
 /* Style applies height and opacity to images within figure element */
@@ -420,13 +459,6 @@ section {
 	color: #991616;
 	}
 	
-	h1 {
-	color: #5991DB;
-	padding-bottom: 1.5em;
-	font-size: 6em;
-	text-align: left;
-}
-
 /* Style for anchor element within the section element */
 section a {
 	color: #FFFFFF;
