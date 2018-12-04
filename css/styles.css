@@ -2,7 +2,7 @@
 
 /* Style for body specifies a background color */
 body {
-	background-color: #1C1D1C;
+	background-color: #B7BfB7;
 }
 
 /*Style to create a fluid image */
@@ -66,6 +66,40 @@ nav li a {
 	text-decoration: none;
 }
 
+/* Style rules for psuedo-classes */
+nav li a:link {
+		color: #D60A3A;
+}
+
+nav li a:visited {
+		color: #193D9E;
+}
+
+nav li a:hover {
+		color: #E2DCDD;
+		font-style: italic;
+}
+
+section {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: left;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+dt {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	color: #A31515;
+}
+
 /* Style displays the mobile class */
 .mobile {
 		display: inline;
@@ -122,10 +156,7 @@ footer a {
 	display: none;
 }
 
-/* Style for aside element */
-aside {
-	font-style: italic;
-}
+
 
 /* Media query for tablet viewport targets screen size with a minimum width of 660px. */
 
@@ -137,7 +168,7 @@ aside {
 	
 	nav li {
 		display: inline;
-		float: left;
+		float: center;
 		margin-left: 1%;
 		margin-right: 1%;
 		padding-left: 0;
@@ -162,8 +193,10 @@ main {
 }
 
 .banner {
+  margin-left: auto;
+	margin-right: auto;
 	width: auto;
-	padding: 1.5em;
+	padding-right: 1.5em;
 }
 /* Style specifies to hide the mobile class */
 .mobile {
@@ -194,6 +227,7 @@ main {
 	margin-top: -3em;
 	margin-bottom: -1em;
 }
+
 
 /* Style specifies a font weight and top margin for description list terms */
 dt {
@@ -294,30 +328,24 @@ aside {
 @media only screen and (min-width: 830px) {
 	
 		.logo {
-		width: 30%;
+		width: 20em;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.banner {
-		width: 90%;
-		margin: auto;
-		margin-left: 3.5em;
-		border: 10px solid #C93239;
+		width: 60%;
+		margin-left: 15em;
 	}
 
 	.marvel {
-		width: 35%;
+		width: 65%;
 		margin-left: 10em;
-		margin-bottom: 5em;
-		padding-bottom: 2em;
 	}
 	
 	.capcom {
-		width: 35%;
-		margin-left: 2em;
-		margin-bottom: 5em;
-		padding-bottom: 1em;
+		wzwidth: 65%;
+		margin-left: 10em;
 	}
 	.characters {
 		margin-top: 16em;
@@ -332,6 +360,7 @@ aside {
 	dd {
 		text-align: left;
 		font-size: 1.5em;
+		color: #999999;
 	}
 	
 	li {
@@ -347,28 +376,23 @@ aside {
 	
 	/* Style to left align header */
 	header {
-		font-size: 2em;
+		font-size: 1em;
 		text-align: center;
 		color: #ED0B47;
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 	}
 	
 	p {
 		font-size: 1.5em;
 		text-align: center;
-		padding-bottom: 0.5em;
-		padding-top: 0.5em;
+		padding-top: 2.5em;
 		color: #3C7EE8
 }
 	
 	/* Style for nav specifies a float, margin, and width */
 nav {
-		float: right;
-		margin-top: -5em;
-		margin-right: 2em;
-		padding: 2em;
-		margin-bottom: 0.2em;
-		width: 70%;
+	margin-left: 20%;
+	width: 95%;
 }
 	
 	/* Style specifies margin and padding for the unorderd list within the nav */
@@ -378,17 +402,14 @@ nav {
 	
 	/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
 	nav li {
-			margin-left: 4em;
-			margin-right: 0;
-			width: 5%;
 }
 
 /* Style for navigation links specifies display and padding */
 nav li a {
 		display: inline-block;
-		padding: 0.7em;
 		text-shadow: 0.2em 0.1em #3D3D35;
-		font-size: 80%;
+		font-size: 75%;
+		padding-right: .4%;
 }
 
 /* Style rules for psuedo-classes */
@@ -402,7 +423,7 @@ nav li a:visited {
 
 nav li a:hover {
 		color: #E2DCDD;
-		font-style: italic,;
+		font-style: italic;
 }
 
 /* Style specifies border, shadow, margin, and padding for main element */
@@ -421,13 +442,22 @@ main p {
 /*Style applies color to h1 element */
 h1 {
 	color: #5991DB;
+	margin-left: 8em;
 	padding-bottom: .5em;
-	font-size: auto;
-	text-align: left;
+	padding-top: 3.5em;
+	font-size: 3em;
+	text-align: center;
 }
+
+h2 {
+	color: #FFFFFF;
+	margin-left: 3em;
+	font-size: 2em;
+	
 
 /* Style applies height and opacity to images within figure element */
 figure img {
+	margin-left: 18em;
 	height: 15em;
 	opacity: 0.7;
 }
@@ -453,8 +483,7 @@ footer {
 section {
 	color: #FFFFFF;
 	margin-left: 1em;
-	padding-bottom: 5em;
-	font-size: 30;
+	font-size: 1.5em;
 	text-align: left;
 	color: #991616;
 	}
