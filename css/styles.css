@@ -335,38 +335,46 @@ aside {
 
 	.banner {
 		width: 60%;
-		margin-left: 15em;
+		margin-left: 22%;
 	}
 
 	.marvel {
-		width: 65%;
-		margin-left: 10em;
+		width: 35%;
+		margin-top: -8.5%;
+		margin-left: 20%;
 	}
 	
 	.capcom {
-		wzwidth: 65%;
-		margin-left: 10em;
+		width: 35%;
+		margin-left: 20%;
+		margin-top: -8.5%;
 	}
 	.characters {
-		margin-top: 16em;
+		margin-top: 2%;
+	}
+	
+	.link {
+		width: auto;
 	}
 	
 	dt {
 		text-align: left;
 		font-size: 2em;
-		color: #F70408
+		color: #F70408;
+		margin-top: 2.5em;
+		font-weight: bold;
 	}
 	
 	dd {
 		text-align: left;
-		font-size: 1.5em;
+		font-size: 1em;
 		color: #999999;
 	}
 	
 	li {
 		font-size: 1.4em;
 		font-style: italic;
-		color: #C1A61b;
+		color: #b53198;
 	}
 	
 	/* Style specifies a width for container */
@@ -391,13 +399,12 @@ aside {
 	
 	/* Style for nav specifies a float, margin, and width */
 nav {
-	margin-left: 20%;
-	width: 95%;
+	
 }
 	
 	/* Style specifies margin and padding for the unorderd list within the nav */
 	nav ul {
-			margin: 0;
+			margin-left: 2em;
 }
 	
 	/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
@@ -433,7 +440,7 @@ main {
 
 /* Style specifies left and right padding for paragraph elements within the main element */
 main p {
-		color: #FFFFFF;
+		color: #3c7ee8;
 		margin-left: auto;
 		margin-right: auto;
 		width: 90%;
@@ -441,25 +448,23 @@ main p {
 
 /*Style applies color to h1 element */
 h1 {
-	color: #5991DB;
-	margin-left: 8em;
-	padding-bottom: .5em;
-	padding-top: 3.5em;
+	color: #DA2121;
+	padding-bottom: 1.5em;
 	font-size: 3em;
-	text-align: center;
 }
 
 h2 {
 	color: #FFFFFF;
-	margin-left: 3em;
-	font-size: 2em;
-	
+	margin-left: 25%;
+	font-size: 3em;
+}
 
 /* Style applies height and opacity to images within figure element */
 figure img {
-	margin-left: 18em;
 	height: 15em;
 	opacity: 0.7;
+	margin: auto;
+	padding-left: 40%;
 }
 
 /* Style removes transparency on hover */
@@ -495,7 +500,13 @@ section a {
 
 /* Style for paragraph element within the section element */
 section p {
-	margin-left: 0
+	margin-left: 60%;
+	margin-top: -22%;
+	width: 33%;
+}
+
+section h1 {
+	text-align: center;
 }
 
 /* Style for main h2 element */
